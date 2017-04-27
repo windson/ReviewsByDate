@@ -1,4 +1,4 @@
-# ReviewsByDate
+# Reviews By Date using HDInsight Streaming MapReduce using C#
 
 This repository deals with retrieving number of reviews in the descending order for date.
 The reviews are present in dataset reviews.csv and its meta is present in metadata.csv
