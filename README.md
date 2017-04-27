@@ -3,6 +3,7 @@
 This repository deals with retrieving number of reviews in the descending order for date.
 The reviews are present in dataset reviews.csv and its meta is present in metadata.csv
 
+## Datasets
 The meta of files in the dataset is as follows
 
 In reviews.csv, each line contains comma-separated values in the following order:
@@ -25,6 +26,8 @@ In metadata.csv, each line contains comma-separated values in the following orde
 - Sales_Rank:
 - Brand:
 - Category: Category of the product
+
+## Setup
 
 Spinup the HDInsight Cluster on Azure You can check for reference <a href="https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters" target="_blank">here</a>. I have created this cluster on Linux VM. Choose Azure Storage as Default Storage.
 
