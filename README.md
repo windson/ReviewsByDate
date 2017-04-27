@@ -54,7 +54,10 @@ The command sends various arguemnts to hadoop-streaming.jar file with yarn as in
 
 After running the command the output folder will contain a text file named part-00000
 
+## Output
+
 Each review in reviews.csv is accompanied by the date on which it was submitted. We need to create the MapReduce methods that count the number of times a review was submitted for a specific date. Then output the result in descending count value.
+For reference purpose I've attached the processed part-00000 file in output directory of this repository.
 The output file will look like this
 
 01-9-2007	287
